@@ -3,8 +3,8 @@ const Pet = ({ name, animal, breed }) => {
     React.createElement("h1", {}, name),
     React.createElement("h2", {}, animal),
     React.createElement("h2", {}, breed),
-  ])
-}
+  ]);
+};
 
 const App = () => {
   return React.createElement(
@@ -26,7 +26,7 @@ const App = () => {
       animal: "Bird",
       breed: "Pigeon",
     })
-  )
-}
+  );
+};
 
-ReactDOM.render(React.createElement(App), document.getElementById("root"))
+ReactDOM.render(React.createElement(App), document.getElementById("root"));
