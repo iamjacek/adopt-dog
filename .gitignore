@@ -7,3 +7,5 @@ npm-debug.log*
 /.changelog
 .npm/
 .env
+dist/
+.cache/
