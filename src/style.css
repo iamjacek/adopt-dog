@@ -1,0 +1,35 @@
+.search-params {
+  color: black;
+  background-color: azure;
+  padding: 15px 25px;
+  border: solid 1px black;
+  border-radius: 15px;
+  max-width: 300px;
+  padding: 25px 20px;
+}
+
+.search-params form {
+  display: flex;
+  flex-direction: column;
+}
+
+.search-params label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+button {
+  padding: 5px 15px;
+  color: antiquewhite;
+  background-color: darkslategray;
+  border-radius: 15px;
+  border: 0;
+}
+
+input {
+  padding: 5px 15px;
+  border: solid 1px black;
+  border-radius: 15px;
+}
